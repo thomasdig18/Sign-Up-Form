@@ -1,10 +1,55 @@
 * {
     margin: 0;
+    padding: 0;
+    background-color: #101010;
 }
 
 .container {
     margin: auto;
-    width: 70%;
+    width: 74%;
     min-height: 100vh;
-    background-color: lightpink;
+    
+}
+
+.img-logo {
+    margin: 0;
+    width: 38%;
+    min-height: 100vh;
+    background-image: url("leaf-img.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: left;
+    position: relative;
+    
+}
+
+.odin {
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+    top: 18%;
+}
+
+.content {
+    margin: 0;
+    background-color: #F0F0F0;
+    min-height: 100vh;
+    width: 62%;
+    overflow: hidden;
+    position: relative;
+}
+
+.form-content {
+    margin: 0;
+    height: 350px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    
+    
+
 }
