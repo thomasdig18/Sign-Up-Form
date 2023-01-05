@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+}
+
+.container {
+    margin: auto;
+    width: 70%;
+    min-height: 100vh;
+    background-color: lightpink;
+}
