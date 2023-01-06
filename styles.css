@@ -16,7 +16,6 @@
     width: 38%;
     min-height: 100vh;
     background-image: url("leaf-img.jpg");
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     float: left;
     position: relative;
@@ -30,6 +29,7 @@
     opacity: 0.6;
     position: absolute;
     top: 18%;
+    
 }
 
 .content {
@@ -38,18 +38,76 @@
     min-height: 100vh;
     width: 62%;
     overflow: hidden;
-    position: relative;
+    position:relative;
+    
+}
+
+.service,
+p,
+h3,
+em {
+    background-color: inherit;
+}
+
+p {
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 130px;
+    padding: 20px 180px 20px 40px;
+}
+
+h3 {
+    font-size: 26px;
+    padding-left: 40px;
 }
 
 .form-content {
     margin: 0;
-    height: 350px;
+    height: 300px;
     width: 100%;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     background-color: white;
-    
-    
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25);
+}
 
+form {
+    background-color: inherit;
+}
+
+h1,
+form > div,
+input,
+label,
+.a,
+.b,
+.c,
+.d,
+.e,
+.f {
+    background-color: white;
+}
+
+h1 {
+    padding-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+      "a b"
+      "c d"
+      "e f";
+  }
+
+.a, .b {
+    margin top:
 }
