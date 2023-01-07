@@ -16,13 +16,17 @@
     margin: 0;
     width: 38%;
     min-height: 100vh;
-    background-image: url("leaf-img.jpg");
-    background-size: 100% 100%;
     float: left;
     position: relative;
     
 }
 
+.img-logo img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
+}
 .odin {
     height: 150px;
     width: 100%;
@@ -35,7 +39,7 @@
 
 .content {
     margin: 0;
-    background-color: #f0f5f7;
+    background-color: #f6f9fa;
     min-height: 100vh;
     width: 62%;
     overflow: hidden;
@@ -61,8 +65,8 @@ p {
 }
 
 h3 {
-    
     padding-left: 40px;
+    margin-bottom: 400px;
 }
 
 .form-content {
@@ -89,7 +93,8 @@ label,
 .c,
 .d,
 .e,
-.f {
+.f
+{
     background-color: white;
 }
 
@@ -102,10 +107,11 @@ h1 {
 }
 
 label {
-    font-size: 14px;
+    font-size: 11px;
     letter-spacing: 1px;
     margin-bottom: 4px;
-    color: rgb(63, 63, 63);
+    color: rgb(99, 97, 97);
+    font-weight: bold;
 }
 
 .grid {
@@ -137,4 +143,29 @@ input {
     border-radius: 4px;
     background-color: #f4f6f7;
 
+}
+
+.btn-log, h2 {
+    background-color: #f6f9fa;
+
+}
+
+button {
+    margin-left: 40px;
+    margin-bottom: 40px;
+    background-color: #596D48;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: 0px solid black;
+    border-radius: 8px;
+    height: 50px;
+    width: 230px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-left: 40px;
 }
