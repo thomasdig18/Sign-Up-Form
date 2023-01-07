@@ -27,15 +27,26 @@
     height: 100%;
     
 }
+
 .odin {
     height: 150px;
     width: 100%;
-    background-color: black;
-    opacity: 0.6;
+    background-color: rgba(7, 7, 7, 0.7);
     position: absolute;
     top: 20.3%;
+    text-align: center;
     
 }
+
+h4 {
+    background-color: rgba(121, 103, 103);
+    margin-top: 30px;
+    padding: 15px;
+    color: white;
+    font-size: 50px;
+    font-family: "Yeon Sung", "Arial";
+}
+
 
 .content {
     margin: 0;
