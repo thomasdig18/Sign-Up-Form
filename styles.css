@@ -191,7 +191,7 @@ h2 {
 
 
 input[type=password]:invalid {
-    border: 1px solid red;
+    border: 1px solid orange;
 }
 
 input:focus {
